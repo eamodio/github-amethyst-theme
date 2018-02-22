@@ -462,23 +462,23 @@ table.files td {
 }
 
 table.files td.icon {
-    color: rgba(213, 203, 219, 0.8);
+    color: #d5cbdbcc;
 }
 
 table.files td.message,
 table.files td.message a {
-    color: rgba(213, 203, 219, 0.6) !important;
+    color: #d5cbdbcc !important;
     text-decoration: none;
 }
 
 table.files td.message a:hover,
 table.files td.message a:focus {
-    color: rgba(213, 203, 219, 0.8) !important;
+    color: #d5cbdbcc !important;
     text-decoration: none;
 }
 
 table.files td.age {
-    color: rgba(213, 203, 219, 0.5) !important;
+    color: #d5cbdb80 !important;
 }
 
 table.files td.icon .octicon-file-directory {
@@ -1370,6 +1370,13 @@ ul.comparison-list>li {
     border-color: #744691b3;
     border-width: 1px;
 }
+.release-body a {
+    color: #d5cbdb !important;
+}
+
+.release-header a {
+    color: #ba7dd9 !important;
+}
 
 .releases-tag-list {
     border-color: #744691b3;
@@ -1475,7 +1482,7 @@ a.branch-name {
 }
 
 .branch-meta {
-    color: rgba(213, 203, 219, 0.6);
+    color: #d5cbdbcc;
 }
 
 /* Repo Wiki Tab */
@@ -1570,7 +1577,7 @@ a.branch-name {
 }
 
 .simple-conversation-list relative-time {
-    color: rgba(213, 203, 219, 0.5);
+    color: #d5cbdb80;
 }
 
 .summary-stats li {
@@ -1840,7 +1847,7 @@ hr,
 .notifications .read .list-group-item-name>a,
 .notifications .read .notification-actions,
 .notifications .read .type-icon {
-    color: rgba(213, 203, 219, 0.5) !important;
+    color: #d5cbdb80 !important;
 }
 
 .notifications .notifications-more>a {
@@ -1852,11 +1859,11 @@ hr,
 }
 
 .list-group-item.unread.issue-notification {
-    background: rgba(213, 203, 219, 0.15);
+    background: #d5cbdb26;
 }
 
 .list-group-item.issue-notification.navigation-focus {
-    background: rgba(213, 203, 219, 0.25) !important;
+    background: #d5cbdb40 !important;
 }
 
 .boxed-group-list>li {
@@ -2010,9 +2017,12 @@ li.session-device {
     background-color: #120024;
 }
 
-.text-gray,
+.text-gray {
+    color: #d5cbdbcc !important;
+}
+
 .text-gray-dark {
-    color: rgba(213, 203, 219, 0.6) !important;
+    color: #d5cbdb99 !important;
 }
 
 .boxed-group-list>li:first-child {
@@ -2680,6 +2690,9 @@ canvas {
     color: #d5cbdb;
 }
 
+.tag-references>li a {
+    color: #d5cbdb;
+}
 .cm-s-github-light {
     background: #120024 !important;
 }
