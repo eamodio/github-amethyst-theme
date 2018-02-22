@@ -2672,6 +2672,14 @@ canvas {
     fill: #d5cbdb !important;
 }
 
+.select-menu.label-select-menu .select-menu-item:active {
+    background-color: #4e007a !important;
+}
+
+.suggester li small {
+    color: #d5cbdb;
+}
+
 .cm-s-github-light {
     background: #120024 !important;
 }
