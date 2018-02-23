@@ -30,7 +30,7 @@ a {
 
 a:hover {
     color: #ba7dd9 !important;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 
@@ -72,6 +72,23 @@ h4 {
     color: #929292;
 }
 
+.orghead {
+    color: #d5cbdb;
+}
+
+.orghead .edit-org {
+    color: #d5cbdb;
+    border: none;
+}
+
+.orghead .edit-org:hover {
+    color: #ede4f1;
+    background-color: #490877;
+}
+
+.orghead .edit-org:hover .octicon {
+    color: #fff !important;
+}
 
 /* Main Site and New User */
 
@@ -292,6 +309,7 @@ button.dropdown-item.dropdown-signout {
 }
 
 .mini-repo-list-item {
+    color: #d5cbdb;
     border-color: #744691b3;
 }
 
@@ -300,11 +318,16 @@ button.dropdown-item.dropdown-signout {
 }
 
 .private .mini-repo-list-item {
-    background-color: #330654;
+    background-color: #ffff000f;
 }
 
-.private .mini-repo-list-item .repo-icon {
-    color: #fff9c4;
+.mini-repo-list-item:hover .repo,
+.mini-repo-list-item:hover .owner {
+    text-decoration: none;
+}
+
+.more-repos-link {
+    color: #d5cbdb;
 }
 
 .filter-bar {
@@ -312,10 +335,11 @@ button.dropdown-item.dropdown-signout {
     border-bottom: 1px solid #744691b3;
 }
 
-.boxed-group .counter {
-    color: #ede4f1;
-    background-color: #120024;
-    border: 1px #744691b3 solid;
+.boxed-group .counter,
+.boxed-group .Counter {
+    color: #d5cbdb;
+    background-color: #490877;
+    border: 1px solid #74469133;
 }
 
 .subscribe-feed {
@@ -418,6 +442,7 @@ button.dropdown-item.dropdown-signout {
 .reponav-item .Counter {
     color: #d5cbdb;
     background-color: #490877;
+    border: 1px solid #74469133;
 }
 
 .reponav-item.selected {
@@ -1938,6 +1963,7 @@ hr,
 .pagehead-tabs-item .Counter {
     color: #d5cbdb;
     background-color: #490877;
+    border: 1px solid #74469133;
 }
 
 .pagehead-tabs-item.selected {
@@ -2213,7 +2239,7 @@ li.session-device {
 /* Rework Buttons | Icons */
 
 .ajax-pagination-form .ajax-pagination-btn {
-    color: #9e9e9e;
+    color: #d5cbdb;
     background: #330654;
     border-color: #744691b3;
 }
@@ -2409,6 +2435,10 @@ li.session-device {
     border-color: #744691b3;
 }
 
+.Header .header-search-scope:hover {
+    color: #fff !important;
+}
+
 .subnav-item {
     color: #d5cbdb;
 }
@@ -2592,6 +2622,10 @@ li.session-device {
     color: #ba7dd9;
 }
 
+.UnderlineNav {
+    border-color: #744691b3;
+}
+
 .UnderlineNav-item {
     color: #d5cbdb;
 }
@@ -2696,6 +2730,27 @@ canvas {
 .tag-references>li a {
     color: #d5cbdb;
 }
+
+.Label--outline {
+    color: #d5cbdb99;
+}
+
+.mini-repo-list-item .stars {
+    color: #d5cbdbcc;
+}
+
+.github-jobs-promotion a.jobs-logo {
+    color: #d5cbdb99;
+}
+
+.github-jobs-promotion a.jobs-logo strong {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    vertical-align: baseline;
+}
+
 .cm-s-github-light {
     background: #120024 !important;
 }
