@@ -396,13 +396,8 @@ button.dropdown-item.dropdown-signout {
     color: #ba7dd9;
 }
 
-.reponav-item {
-    color: #9e9e9e;
-}
-
-.reponav-item:hover,
-.reponav-item:focus {
-    color: #fff;
+.Counter {
+    color: #ede4f1;
 }
 
 .counter {
@@ -410,8 +405,19 @@ button.dropdown-item.dropdown-signout {
     border: 1px #744691b3 solid;
 }
 
-.reponav-item .counter {
-    color: #f9f9f9;
+.reponav-item {
+    color: #d5cbdb;
+}
+
+.reponav-item:hover,
+.reponav-item:focus {
+    color: #fff;
+}
+
+.reponav-item .counter,
+.reponav-item .Counter {
+    color: #d5cbdb;
+    background-color: #490877;
 }
 
 .reponav-item.selected {
@@ -1925,6 +1931,15 @@ hr,
     border-color: #744691b3;
 }
 
+.pagehead-tabs-item {
+    color: #d5cbdb;
+}
+
+.pagehead-tabs-item .Counter {
+    color: #d5cbdb;
+    background-color: #490877;
+}
+
 .pagehead-tabs-item.selected {
     color: #fff;
     background-color: #120024;
@@ -2395,23 +2410,11 @@ li.session-device {
 }
 
 .subnav-item {
-    color: #decde5;
+    color: #d5cbdb;
 }
 
 .subnav-search-context .btn {
-    color: #decde5;
-}
-
-.reponav-item {
-    color: #decde5;
-}
-
-.Counter {
-    color: #ede4f1;
-}
-
-.reponav-item .Counter {
-    color: #ede4f1;
+    color: #d5cbdb;
 }
 
 .issues-reset-query {
@@ -2419,7 +2422,7 @@ li.session-device {
 }
 
 .table-list-header-toggle .btn-link {
-    color: #decde5;
+    color: #d5cbdb;
 }
 
 .numbers-summary a, .numbers-summary .nolink {
