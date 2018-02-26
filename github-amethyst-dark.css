@@ -734,6 +734,10 @@ span.d-block {
     border-color: #744691b3;
 }
 
+.blob-num:hover {
+    color: #d5cbdb;
+}
+
 .blob-code-inner {
     color: #6d6d72;
 }
@@ -750,6 +754,34 @@ span.d-block {
 
 .blob-num-expandable {
     background-color: rgba(255, 255, 255, 0.07);
+}
+
+.blob-num-expandable .diff-expander:hover {
+    background-color: #744691;
+    border-color: #744691;
+    color: #fff !important;
+}
+
+.blob-expanded .blob-num,
+.blob-expanded .blob-code {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+tr:not(.blob-expanded)+.blob-expanded .blob-num,
+tr:not(.blob-expanded)+.blob-expanded .blob-code {
+    border-color: #744691b3;
+}
+
+.blob-expanded+tr:not(.blob-expanded) .blob-num, .blob-expanded+tr:not(.blob-expanded) .blob-code {
+    border-top-color: #744691b3;
+}
+.file-diff-split .blob-code+.blob-num {
+    border-left-color: #744691b3;
+}
+
+.add-line-comment {
+    background-color: #744691;
+    background-image: linear-gradient(#8f5aaf, #744691);
 }
 
 .ace_editor .ace_gutter-active-line {
