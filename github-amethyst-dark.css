@@ -1931,7 +1931,7 @@ hr,
     background: #d5cbdb26;
 }
 
-.list-group-item.issue-notification.navigation-focus {
+.list-group-item.read.navigation-focus {
     background: #d5cbdb40 !important;
 }
 
