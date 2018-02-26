@@ -784,6 +784,10 @@ tr:not(.blob-expanded)+.blob-expanded .blob-code {
     background-image: linear-gradient(#8f5aaf, #744691);
 }
 
+.commit-id {
+    color: #d5cbdbcc;
+}
+
 .ace_editor .ace_gutter-active-line {
     background-color: #330654;
 }
