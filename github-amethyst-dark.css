@@ -2596,13 +2596,28 @@ li.session-device {
     background: #8446ae;
 }
 
-.pagination a, .pagination span, .pagination em {
+.pagination a,
+.pagination span,
+.pagination em {
     background: #330654;
     border: 1px solid #744691b3;
     color: #ede4f1;
 }
 
-.pagination .gap, .pagination .disabled, .pagination .gap:hover, .pagination .disabled:hover {
+.pagination a:hover,
+.pagination a:focus,
+.pagination span:hover,
+.pagination span:focus,
+.pagination em:hover,
+.pagination em:focus {
+    background-color: #744691;
+    border-color: #744691;
+    color: #ede4f1 !important;
+}
+
+.pagination .gap, .pagination .disabled,
+.pagination .gap:hover,
+.pagination .disabled:hover {
     background: #330654;
     color: #ede4f14d;
     border-color: #744691b3;
