@@ -2584,7 +2584,7 @@ li.session-device {
 }
 
 .select-menu-item-text .description {
-    color: #d5cbdb80;
+    color: #d5cbdb80 !important;
 }
 
 .reaction-sort-item:hover,
