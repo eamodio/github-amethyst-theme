@@ -701,8 +701,14 @@ span.d-block {
     border: 1px #744691b3 solid;
 }
 
-.markdown-body h1 {
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
     border-color: #744691b3;
+    color: #ede4f1;
 }
 
 .markdown-body img {
@@ -2859,6 +2865,29 @@ canvas {
 
 .lock-toggle-link .octicon {
     color: #d5cbdb80 !important;
+}
+
+.blog-post-meta {
+    color: #d5cbdb !important;
+}
+
+.blog-post-meta a {
+    color: #d5cbdb !important;
+}
+
+.blog-aside .rss {
+    color: #d5cbdb !important;
+}
+
+.blog-feedback {
+    background-color: #26003c !important;
+    border-color: #744691b3 !important;
+    box-shadow: 0 0 5px #744691b3 !important;
+}
+
+.blog-feedback-header {
+    border-color: #744691b3 !important;
+    box-shadow: 0 1px 0 #744691b3 !important;
 }
 
 .cm-s-github-light {
