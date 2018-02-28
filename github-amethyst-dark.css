@@ -2890,6 +2890,24 @@ canvas {
     box-shadow: 0 1px 0 #744691b3 !important;
 }
 
+.timeline-comment.current-user .previewable-comment-form .comment-form-head.tabnav {
+    background: #330654;
+    color: #ede4f1;
+    border-bottom-color: #744691;
+}
+
+.write-content.upload-enabled:focus {
+    outline: #9664b4 auto 5px;
+}
+
+.upload-enabled.focused {
+    box-shadow: inset 0 1px 2px #9664b4, 0 0 0 0.2em #9664b41a;
+}
+
+.upload-enabled.focused .drag-and-drop {
+    border-color: #9664b4;
+}
+
 .cm-s-github-light {
     background: #120024 !important;
 }
