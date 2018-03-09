@@ -2908,6 +2908,21 @@ canvas {
     border-color: #9664b4;
 }
 
+.branch-action-state-dirty .branch-action-body::before,
+.branch-action-state-closed-dirty .branch-action-body::before,
+.is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-body::before {
+    border-right-color: #ba7dd9 !important;
+}
+
+.branch-action-body {
+    border-color: #ba7dd9 !important;
+}
+
+.branch-action-body::before,
+.branch-action-body::after {
+    border-right-color: #ba7dd9 !important;
+}
+
 .cm-s-github-light {
     background: #120024 !important;
 }
