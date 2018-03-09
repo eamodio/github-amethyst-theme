@@ -2807,6 +2807,14 @@ canvas {
     color: #d5cbdb99;
 }
 
+.Label--prerelease {
+    color: #f66a0a !important;
+}
+
+.Label--latest {
+    color: #2cbe4e !important;
+}
+
 .mini-repo-list-item .stars {
     color: #d5cbdbcc;
 }
