@@ -873,7 +873,8 @@ tr:not(.blob-expanded)+.blob-expanded .blob-code {
 }
 
 .markdown-body blockquote {
-    border-color: #744691b3;
+    color: #d5cbdb99 !important;
+    border-color: #744691b3 !important;
 }
 
 
