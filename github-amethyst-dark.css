@@ -539,6 +539,10 @@ table.files td.content a:focus {
     text-decoration: none;
 }
 
+table.files td .simplified-path {
+    color: #d5cbdbcc !important;
+}
+
 .warning {
     padding: 0.5em;
     margin-bottom: 0.8em;
@@ -889,8 +893,12 @@ tr:not(.blob-expanded)+.blob-expanded .blob-code {
     border-color: #744691b3;
 }
 
+.breadcrumb{
+    color: #d5cbdb80;
+}
+
 .breadcrumb strong.final-path {
-    color: #929292;
+    color: #d5cbdbcc;
 }
 
 .ace_gutter {
