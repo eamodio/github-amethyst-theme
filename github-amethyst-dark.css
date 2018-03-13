@@ -2940,6 +2940,14 @@ canvas {
     border-right-color: #ba7dd9 !important;
 }
 
+.release-timeline-tags .date {
+    color: #d5cbdbcc;
+}
+
+.releases-tag-list td.date a {
+    color: #d5cbdb;
+}
+
 .cm-s-github-light {
     background: #120024 !important;
 }
