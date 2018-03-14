@@ -1010,21 +1010,23 @@ tr:not(.blob-expanded)+.blob-expanded .blob-code {
 .select-menu-modal {
     border-color: #744691b3;
     box-shadow: none;
+    color: #d5cbdb;
 }
 
-.select-menu-header {
-    background: #330654;
-    border-color: #744691b3;
-}
-
-.select-menu-header .select-menu-title {
+.select-menu-header .select-menu-title,
+.select-menu-divider {
     color: #d5cbdbcc;
     text-shadow: none;
 }
 
-.select-menu-header {
+.select-menu-header,
+.select-menu-divider {
     background: #330654;
     border-bottom: 1px solid #744691b3;
+}
+
+.select-menu-divider {
+    border-top: 1px solid #744691b3;
 }
 
 .select-menu-item {
@@ -2092,6 +2094,14 @@ hr,
     border-color: #744691b3;
 }
 
+.listgroup-item {
+    color: #d5cbdbcc;
+}
+
+.listgroup-item-title {
+    color: #d5cbdb;
+}
+
 .listgroup-item+.listgroup-item {
     border-color: #744691b3;
 }
@@ -2337,6 +2347,12 @@ li.session-device {
     color: #d5cbdb;
 }
 
+.toolbar-item .menu-target:hover,
+.toolbar-item .menu-target:focus,
+.toolbar-item:hover,
+.toolbar-item:focus {
+    color: #ba7dd9;
+}
 
 /* Github Pricing */
 
@@ -2594,12 +2610,32 @@ li.session-device {
     color: #fff !important;
 }
 
+.select-menu-tabs {
+    border-bottom-color: #744691b3;
+}
+
 .select-menu-tabs a, .select-menu-tabs .select-menu-tab-nav {
     color: #d5cbdb80;
 }
 
+.select-menu-tabs a.selected,
+.select-menu-tabs .select-menu-tab-nav.selected {
+    color: #fff;
+    background-color: #744691;
+    border-color: #744691 !important;
+}
+
 .select-menu-item-text .description {
     color: #d5cbdb80 !important;
+}
+
+.select-menu-item.last-visible {
+    border-top: 1px solid #744691b3;
+}
+
+.select-menu-list:last-child .select-menu-item:last-child,
+.select-menu-item.last-visible {
+    border-radius: 0;
 }
 
 .reaction-sort-item:hover,
