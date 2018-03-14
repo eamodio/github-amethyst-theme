@@ -2948,6 +2948,10 @@ canvas {
     color: #d5cbdb;
 }
 
+.task-progress {
+    color: #d5cbdbcc;
+}
+
 .cm-s-github-light {
     background: #120024 !important;
 }
