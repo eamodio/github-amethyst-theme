@@ -2988,6 +2988,10 @@ canvas {
     color: #d5cbdbcc;
 }
 
+.merge-branch-heading {
+    color: #ede4f1;
+}
+
 .cm-s-github-light {
     background: #120024 !important;
 }
