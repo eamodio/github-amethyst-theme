@@ -762,7 +762,11 @@ span.d-block {
 }
 
 .blob-code-inner {
-    color: #6d6d72;
+    color: #d5cbdb;
+}
+
+.blob-code-inner.highlighted {
+    background-color: #744691b3;
 }
 
 .blob-code-hunk,
@@ -830,6 +834,11 @@ tr:not(.blob-expanded)+.blob-expanded .blob-code {
 .pl-sr .pl-sra,
 .pl-sr .pl-sre {
     color: #ede4f1;
+}
+
+.pl-c1,
+.pl-s .pl-v {
+    color: #569cd6;
 }
 
 .pl-s .pl-s1,
