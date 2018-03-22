@@ -405,6 +405,10 @@ button.dropdown-item.dropdown-signout {
 
 /* Repo Page (Main) */
 
+.repohead h1 {
+    color: #d5cbdb;
+}
+
 .repohead.experiment-repo-nav {
     background-color: #25013c;
 }
@@ -620,6 +624,22 @@ table.files td .simplified-path {
 .full-commit .btn-outline,
 .full-commit .btn-outline:disabled {
     border-color: #744691b3;
+}
+
+.full-commit .branches-list li {
+    color: #d5cbdb;
+}
+
+.full-commit .branches-list li.loading {
+    color: #d5cbdbcc;
+}
+
+.commit-branches {
+    color: #ede4f1;
+}
+
+.branches-tag-list li:first-child {
+    color: #d5cbdb;
 }
 
 .commits-list-item.navigation-focus {
@@ -1703,6 +1723,10 @@ a.branch-name {
 
 .summary-stats li a:hover {
     background: #25013c;
+}
+
+.diffstat {
+    color: #ede4f1;
 }
 
 .diffstat-summary {
@@ -2999,6 +3023,16 @@ canvas {
 
 .merge-branch-heading {
     color: #ede4f1;
+}
+
+.Popover-message {
+    background-color: #120024;
+    border-color: #744691;
+}
+
+.Popover-message::before,
+.Popover-message::after {
+    border-top-color: #744691;
 }
 
 .cm-s-github-light {
