@@ -861,13 +861,29 @@ tr:not(.blob-expanded)+.blob-expanded .blob-code {
     color: #569cd6;
 }
 
-.pl-s .pl-s1,
-.pl-smi {
+.pl-s .pl-s1 {
     color: #bbb;
 }
 
+.pl-v,
+.pl-smi {
+    color: #9cdcfe;
+}
+
 .pl-k {
-    color: #b73999;
+    color: #c586c0;
+}
+
+.pl-c {
+    color: #608b4e;
+}
+
+.pl-en {
+    color: #4ec9b0;
+}
+
+.pl-s {
+    color: #ce9178;
 }
 
 .ace_string {
@@ -875,7 +891,7 @@ tr:not(.blob-expanded)+.blob-expanded .blob-code {
 }
 
 .ace_support.ace_type {
-    color: #b73999;
+    color: #c586c0;
 }
 
 .ace_keyword {
@@ -2277,6 +2293,18 @@ li.session-device {
 
 .code-list .language {
     color: #d5cbdbcc;
+}
+
+.code-list .divider .blob-num,
+ .code-list .divider .blob-code {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.code-list em {
+    padding: 3px 6px;
+    font-weight: normal;
+    color: inherit;
+    background-color: #4d057b;
 }
 
 .codesearch-aside .filter-list {
